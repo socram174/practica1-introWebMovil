@@ -6,33 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Practica 1 Marcos Silva</title>
+    <link rel="stylesheet" href="./styles.css">
+        <title>Practica 1 Marcos Silva</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="row border border-success vh-100 d-flex justify-content-center align-items-center">
+      <h1 class="text-center">Portafolio</h1>
+        <div class="p-3 row border border-success vh-100 d-flex justify-content-center align-items-center rounded">
             <div class="col-md-6 col-xs-4">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px;" >
                     <div class="row g-0">
-                      <div class="col-md-4">
+                      <div class="col-md-4 d-flex justify-content-center align-items-center p-4 border border-success">
                         <img src="pc.png" class="img-fluid rounded-start" alt="...">
                       </div>
                       <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Marcos Silva Gonzalez</h5>
-                          <p class="card-text">Descripcion de Marcos Silva Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, corrupti!.</p>
+                        <div class="card-header bg-transparent border-success"><h5 class="card-title">Marcos Silva Gonzalez</h5></div>
+                        <div class="card-body ">
+                          
+                          <p class="card-text">Soy estudiante de Ing. civil en computación e informatica de la Universidad Catolica del Norte en Antofagasta y me insteresa el desarrollo web</p>
                           <p class="card-text"><small class="text-body-secondary">2023</small></p>
                         </div>
                       </div>
                     </div>
                   </div>
             </div>
-            <div class="col-md-6 col-xs-4 border border-success overflow-scroll">
-                <h1>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut labore itaque aspernatur amet assumenda temporibus omnis voluptatem! Maiores ut veritatis, corporis minus quas consectetur magnam ab animi iure eligendi, fuga nisi doloribus, cumque culpa eos quaerat beatae at adipisci in repudiandae eius? Animi eligendi magni eum maxime neque mollitia!
-                </h1>
-            </div>
+            <div id="info" class="col-md-6 col-xs-4 overflow-scroll shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="max-height: 100%;">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card h-100 p-4">
+                    <img src="./images/React-icon.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">React</h5>
+                      <p class="card-text">He ganado algo de experiencia en react gracias a proyectos personales y de la universidad.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./images/expressjs-ar21.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nodejs/express</h5>
+                      <p class="card-text">Este es el unico framework de backend que he utilizado hasta el momento.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./images/mongodb-ar21.svg" class="card-img-top" alt="..." >
+                    <div class="card-body">
+                      <h5 class="card-title">Mongodb</h5>
+                      <p class="card-text">Es la base de datos que mas he usado despues de mysql. He almacenar datos desde codigo hecho en javascript como coidgo hecho en python.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./images/python-icon.svg" class="card-img-top p-5" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Python</h5>
+                      <p class="card-text">Es la base de datos que mas he usado despues de mysql. He almacenar datos desde codigo hecho en javascript como coidgo hecho en python.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             
         </div>
